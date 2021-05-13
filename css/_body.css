@@ -1,21 +1,9 @@
-html {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
 body {
-  font-family: 'Gilroy';
+  font-family: 'Proxima Nova Rg';
   margin: 0;
   box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 a {
   text-decoration: none;
-}
-.all {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
+  color: #F2F2F2;
 }

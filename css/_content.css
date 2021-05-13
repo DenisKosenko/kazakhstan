@@ -1,0 +1,35 @@
+.content {
+  margin-top: 40px;
+  padding: 0;
+}
+.content__image {
+  margin-bottom: -4px;
+  z-index: 1;
+}
+.content__block {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 25px 35px;
+  backdrop-filter: blur(80px);
+  font-family: 'Proxima Nova Lt' !important;
+}
+.content__block h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 37px;
+  font-weight: 300 !important;
+}
+.content__block h3 div {
+  width: 20px;
+  height: 20px;
+  transform: rotate(320deg);
+  border-bottom: 3px solid #f2f2f2;
+  border-right: 3px solid #f2f2f2;
+  cursor: pointer;
+}
+.content__text {
+  font-size: 14px;
+  line-height: 1.5;
+}

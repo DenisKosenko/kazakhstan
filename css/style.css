@@ -4030,7 +4030,7 @@ html {
   font-weight: 900;
   font-style: italic;
 }
-.header {
+.page {
   background-image: url(../img/img.png);
   background-attachment: fixed;
   background-position: center;
@@ -4038,12 +4038,156 @@ html {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  color: #F2F2F2;
+}
+.page__nav {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f25e;
+}
+.page__navlist {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.page__link {
+  font-family: 'Proxima Nova Lt';
+  font-size: 16px;
+  padding: 0 8px;
+}
+.page__link a {
+  transition-duration: 0.5s;
+  animation-direction: alternate;
+}
+.page__link a:hover {
+  color: #9FBE37;
+  transition-duration: 0.5s;
+  animation-direction: alternate;
+}
+.page__logo a svg {
+  padding: 0;
+}
+.page__logotext {
+  padding: 0 10px;
+}
+.page__logotext a svg {
+  display: block;
+}
+.page__logotext span {
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.page__languagelist {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.page__languagelink {
+  padding: 0 3px;
+  transition-duration: 0.5s;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+.page__languagelink:hover {
+  color: #9FBE37;
+  transition-duration: 0.5s;
+  animation-direction: alternate;
+}
+.page__call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page__call :first-child {
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Th';
+}
+.page__call span {
+  padding: 3px 0;
+  margin-right: 25px;
+}
+.page__calllogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9FBE37;
+  width: 57px;
+  height: 57px;
 }
 body {
-  font-family: 'Proxima Nova Cn Rg';
+  font-family: 'Proxima Nova Rg';
   margin: 0;
   box-sizing: border-box;
 }
 a {
   text-decoration: none;
+  color: #F2F2F2;
+}
+.main__headline {
+  font-family: 'Proxima Nova Lt';
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 65px;
+}
+.main h1 {
+  font-weight: 300 !important;
+}
+.main__arrow {
+  margin-right: 30px;
+}
+.main__arrow .arrow {
+  border: 1px solid #f2f2f2af;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main__arrow .arrow div {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  border-bottom: 3px solid #f2f2f2;
+  border-right: 3px solid #f2f2f2;
+}
+.content {
+  margin-top: 40px;
+  padding: 0;
+}
+.content__image {
+  margin-bottom: -4px;
+  z-index: 1;
+}
+.content__block {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 25px 35px;
+  backdrop-filter: blur(80px);
+  font-family: 'Proxima Nova Lt' !important;
+}
+.content__block h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 37px;
+  font-weight: 300 !important;
+}
+.content__block h3 div {
+  width: 20px;
+  height: 20px;
+  transform: rotate(320deg);
+  border-bottom: 3px solid #f2f2f2;
+  border-right: 3px solid #f2f2f2;
+  cursor: pointer;
+}
+.content__text {
+  font-size: 14px;
+  line-height: 1.5;
 }
